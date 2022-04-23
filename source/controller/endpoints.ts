@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 import axios, { AxiosResponse } from 'axios';
 
+/*
 const getEvent = async (req: Request, res: Response, next: NextFunction) => {
     let eventId = req.params.eventId;
 
@@ -8,5 +9,6 @@ const getEvent = async (req: Request, res: Response, next: NextFunction) => {
         message: eventId
     });
 };
+*/
 
-export default { getEvent };
+export default { };
